@@ -5,6 +5,10 @@ The following package creates a new input type for [Aldeed's meteor-autoform](ht
 ![autoform-tinymce editor](https://raw.githubusercontent.com/oohaysmlm/autoform-tinymce/master/readme/tinymce.png)
 
 ###Usage###
+```
+meteor add skehoe1989:autoform-tinymce
+```
+
 ```javascript
 BlogPosts = new SimpleSchema({
     title: {

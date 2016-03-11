@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'oohaysmlm:autoform-tinymce',
+  name: 'skehoe1989:autoform-tinymce',
   version: '1.0.0',
   // Brief, one-line summary of the package.
   summary: 'A small Meteor package to add the TinyMCE WYSIWYG editor as an Autoform input type',
@@ -23,6 +23,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('oohaysmlm:autoform-tinymce');
+  api.use('skehoe1989:autoform-tinymce');
   api.addFiles('autoform-tinymce-tests.js');
 });

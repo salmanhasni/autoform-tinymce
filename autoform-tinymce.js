@@ -10,6 +10,9 @@ Template.autoformTinyMCE.onRendered(function(){
 Template.autoformTinyMCE.helpers({
     schemaKey: function() {
         return this.atts['data-schema-key'];
+    },
+    text: function() {
+        return Template.instance().data.value;
     }
 })
 

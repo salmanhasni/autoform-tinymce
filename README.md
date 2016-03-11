@@ -9,6 +9,8 @@ The following package creates a new input type for [Aldeed's meteor-autoform](ht
 meteor add skehoe1989:autoform-tinymce
 ```
 
+Add the 'tinyMCE' input type to the autoform property in your collection's SimpleSchema:
+
 ```javascript
 BlogPosts = new SimpleSchema({
     title: {

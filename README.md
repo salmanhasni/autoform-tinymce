@@ -18,6 +18,5 @@ BlogPosts = new SimpleSchema({
         }
     },
 ```
-####Autoform Inline####
 
 Maintained by [BitTiger](http://bittiger.io)

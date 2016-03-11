@@ -20,4 +20,6 @@ BlogPosts = new SimpleSchema({
 ```
 
 Maintained by [BitTiger](http://bittiger.io)
+
+
 ![BitTiger Logo](https://raw.githubusercontent.com/oohaysmlm/autoform-tinymce/master/readme/small_logo.png)

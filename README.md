@@ -2,7 +2,7 @@
 
 ###Description###
 The following package creates a new input type for [Aldeed's meteor-autoform](https://github.com/aldeed/meteor-autoform) package using the [TinyMCE](https://www.tinymce.com/) WYSIWYG text editor.
-![autoform-tinymce editor](http://prntscr.com/ae0ovs)
+![autoform-tinymce editor](https://raw.githubusercontent.com/oohaysmlm/autoform-tinymce/master/readme/tinymce.png)
 
 ###Usage###
 ```javascript
@@ -20,3 +20,4 @@ BlogPosts = new SimpleSchema({
 ```
 
 Maintained by [BitTiger](http://bittiger.io)
+![BitTiger Logo](https://raw.githubusercontent.com/oohaysmlm/autoform-tinymce/master/readme/small_logo.png)

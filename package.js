@@ -1,6 +1,6 @@
 Package.describe({
   name: 'skehoe1989:autoform-tinymce',
-  version: '1.0.1',
+  version: '1.0.2',
   // Brief, one-line summary of the package.
   summary: 'A small Meteor package to add the TinyMCE WYSIWYG editor as an Autoform input type',
   // URL to the Git repository containing the source code for this package.

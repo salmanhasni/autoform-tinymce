@@ -1,5 +1,5 @@
 Template.autoformTinyMCE.onRendered(function() {
-    var initOptions = this.data;
+    var initOptions = this.data || {};
     initOptions.selector = '#' + this.firstNode.id;
     initOptions.skin_url = '/packages/teamon_tinymce/skins/lightgray';
     tinymce.init(initOptions);

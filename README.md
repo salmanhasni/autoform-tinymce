@@ -21,18 +21,20 @@ BlogPosts = new SimpleSchema({
     content: {
         type: String,
         autoform: {
-            type: 'tinyMCE',
-            data: {
-                /**  
-                *   tinyMCE initialization options
-                *   "skin_url" is not customizable for now*
-                *   See https://www.tinymce.com/docs/configure/editor-appearance/
-                */                
-                height: 300,
-                statusbar: false,
-                menubar: false
-                ...
-                ...
+            afFieldInput: {
+                type: 'tinyMCE',
+                data: {
+                    /**  
+                    *   tinyMCE initialization options
+                    *   "skin_url" is not customizable for now*
+                    *   See https://www.tinymce.com/docs/configure/editor-appearance/
+                    */                
+                    height: 300,
+                    statusbar: false,
+                    menubar: false
+                    ...
+                    ...
+                }
             }
         }
     }

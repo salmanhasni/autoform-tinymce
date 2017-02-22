@@ -1,8 +1,14 @@
 Template.autoformTinyMCE.onRendered(function() {
     var initOptions = this.data || {};
-    initOptions.selector = '#' + this.firstNode.id;
+    var id = this.firstNode.id;
+    initOptions.selector = '#' + id;
     initOptions.skin_url = '/packages/teamon_tinymce/skins/lightgray';
     tinymce.init(initOptions);
+
+    var editor = tinymce.get(id);
+    this.autorun(function() {
+        editor.setContent(Template.currentData().value);
+    });
 });
 
 Template.autoformTinyMCE.helpers({
@@ -10,7 +16,7 @@ Template.autoformTinyMCE.helpers({
         return this.atts['data-schema-key'];
     },
     text: function() {
-        return Template.instance().data.value;
+        return Template.currentData().value;
     },
     id: function() {
         return Math.random().toString(36).substring(7);

@@ -2,7 +2,7 @@ Template.autoformTinyMCE.onRendered(function() {
     var initOptions = this.data || {};
     var id = this.firstNode.id;
     initOptions.selector = '#' + id;
-    initOptions.skin_url = Meteor.absoluteUrl('/packages/teamon_tinymce/skins/lightgray');
+    initOptions.skin_url = Meteor.absoluteUrl('packages/teamon_tinymce/skins/lightgray');
     tinymce.init(initOptions);
 
     var editor = tinymce.get(id);

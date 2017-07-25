@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use('blaze-html-templates');
   api.use('teamon:tinymce@4.5.4');
-  api.use('aldeed:autoform@5.7.1');
+  api.use('aldeed:autoform@6.2.0');
   api.addFiles('autoform-tinymce.html', 'client');
   api.addFiles('autoform-tinymce.js', 'client');
 });

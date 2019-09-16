@@ -1,6 +1,6 @@
 Package.describe({
-  name: 'skehoe1989:autoform-tinymce',
-  version: '1.0.3',
+  name: 'salmanhasni:autoform-tinymce',
+  version: '1.0.5',
   // Brief, one-line summary of the package.
   summary: 'A small Meteor package to add the TinyMCE WYSIWYG editor as an Autoform input type',
   // URL to the Git repository containing the source code for this package.
@@ -11,18 +11,11 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.2.1');
+  api.versionsFrom('1.8.1');
   api.use('ecmascript');
-  api.use('blaze-html-templates');
-  api.use('teamon:tinymce@4.5.4');
-  api.use('aldeed:autoform@6.2.0');
+  api.use('blaze-html-templates@1.1.2');
+  api.use('salmanhasni:tinymce@5.0.20');
+  api.use('aldeed:autoform@5.8.1');
   api.addFiles('autoform-tinymce.html', 'client');
   api.addFiles('autoform-tinymce.js', 'client');
-});
-
-Package.onTest(function(api) {
-  api.use('ecmascript');
-  api.use('tinytest');
-  api.use('skehoe1989:autoform-tinymce');
-  api.addFiles('autoform-tinymce-tests.js');
 });

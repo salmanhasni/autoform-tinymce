@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.8.1');
   api.use('ecmascript');
   api.use('blaze-html-templates@1.1.2');
-  api.use('salmanhasni:tinymce@5.0.20');
+  api.use('salmanhasni:tinymce@5.0.21');
   api.use('aldeed:autoform@5.8.1');
   api.addFiles('autoform-tinymce.html', 'client');
   api.addFiles('autoform-tinymce.js', 'client');
